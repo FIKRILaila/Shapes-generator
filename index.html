@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"
+        integrity="sha512-gQVBYBvfC+uyor5Teonjr9nmY1bN+DlOCezkhzg4ShpC5q81ogvFsr5IV4xXAj6HEtG7M1Pb2JCha97tVFItYQ=="
+        crossorigin="anonymous"></script>
+    <title>shape</title>
+</head>
+
+<body>
+    <div class="global">
+        <div id="container">
+            <select name="" id="shapee">
+                <option value="" disabled selected>select your shape:</option>
+                <option value="square">carre</option>
+                <option value="rectangle">rectangle</option>
+                <option value="ellipse">ellipse</option>
+            </select>
+            <div class="inputs">
+                <input type="text" placeholder="x" id="x">
+                <input type="text" placeholder="y" id="y">
+                <input type="text" placeholder="w" id="w">
+                <input type="text" placeholder="h" id="h">
+                <input type="text" placeholder="s" id="s">
+                <input type="text" placeholder="r" id="r">
+            </div>
+            <button id="draw">draw</button>
+        </div>
+        <div id=canvass></div>
+    </div>
+
+    <script src="shape.js"></script>
+</body>
+
+</html>
